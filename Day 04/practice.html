@@ -1,0 +1,67 @@
+<script>
+  
+  var int1=parseInt(prompt("Enter First Number: "));
+  var int2=parseFloat(prompt("Enter Second Number"));
+  
+  document.write(int1*int2);
+  
+  document.write("<br>");
+  
+  document.write(int1/int2);
+  
+  
+  var text = "How are you?";
+  
+  document.write("<br><br>");
+  
+  var ans=(text.indexOf("a"));
+  document.write(ans.toString());
+  
+  
+  // convert farneheit to celsius
+  
+  
+  var far = 75;
+  
+  var cels = ((far-32)*(5/9));
+  
+  cels =(parseFloat(cels)).toFixed(2);
+ 
+  document.write("<br>Celsius: "+cels);
+  
+  
+  // Celsius To Farneheit Convert 
+  
+  far=(parseFloat((cels*(9/5))+32)).toFixed(2);
+  
+  document.write("<br>Farneheit"+far);
+  
+  //Relation Oparetor: > < >= <= == === !=\!==
+
+document.write("<br><br>");
+
+document.write(10<20);
+document.write("<br>");
+document.write(20==20);
+document.write("<br>");
+document.write(20==="20");
+
+
+// Logical Oparetor symbol
+// (!) means (Not)
+// (||)  means (or)
+// (&&) means (and)
+
+document.write("<br>");
+document.write(20>30 || 20>10);
+document.write("<br>");
+document.write(20>10 && 20<30);
+
+document.write("<br>");
+document.write(!(20<30));
+document.write("<br>");
+document.write(!(20>30));
+document.write("<br>");
+document.write(!(false));
+
+</script>
